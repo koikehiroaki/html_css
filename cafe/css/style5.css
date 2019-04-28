@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+body {
+    font-size: 20px;
+}
+
+.headerdiv {
+    min-width: 1200px;
+    width: auto;
+    position: relative;
+    padding: 30px 0px;
+}
+
+.headerdiv h1 {
+    text-align: center;
+}
+
+.logo1 {
+    position: absolute;
+    right: 90px;
+    top: 20px;
+    list-style: none;
+}
+
+.logo2 {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    list-style: none;
+}
+
+nav {
+    background: #69290c;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    width: 400px;
+    text-align: center;
+    color: #f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+nav ul li a:link {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #863511;
+}
+
+nav ul li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.topsection {
+    background: #fff6e8;
+}
+
+.topzentai {
+    overflow: hidden;
+    margin: 40px auto 0px;
+    width: 1200px;
+}
+
+.toptext {
+    float: left;
+    width: 540px;
+    padding-right: 30px;
+}
+
+.event {
+    margin: 100px 0px;
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.topsection figure {
+    float: right;
+
+}
+
+
+
+.infosection {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.infotopimage {
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+footer {
+    background: #7a2f0e;
+}
+
+footer p {
+    text-align: center;
+    color: #f7f7f7;
+    padding: 20px 0px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainHeader {
+    height: 350px;
+    background: url(../images/cafe_info_logo2.png);
+    background-repeat: no-repeat;
+    background-color: #fff6e8;
+}
+
+.mainTitle {
+ 
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.mainText {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+.table dt,
+.table dd {
+
+    box-sizing: border-box;
+    border-bottom: 1px solid #333;
+}
+
+.table dt {
+    padding: 10px;
+    width: 10%;
+}
+
+.table dd {
+    padding: 10px;
+    width: 90%;
+    text-align: right
+}
