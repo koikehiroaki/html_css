@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+body {
+    line-height: 2;
+}
+
+header {
+    background: #47B39D;
+}
+
+/*   float_ver
+
+.a {
+    margin: 0 auto;
+    width: 1000px;
+    height: 80px;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin-top: 45px;
+}
+
+header ul {
+    overflow: hidden;
+    list-style: none;
+    float: right;
+    line-height: 80px;
+}
+
+header ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+*/
+
+/* flex_ver */
+
+.a {
+    margin: 0 auto;
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+header ul {
+    list-style: none;
+    line-height: 80px;
+}
+
+header ul li {
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+
+.headerlink1 {
+    width: 175px;
+}
+
+.headerlink2 {
+    width: 220px;
+}
+
+header ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header ul li a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background:  #4bbba3;
+    text-decoration: none;
+}
+
+.midasi {
+    background: #41BAA4;
+}
+
+.midasiutigawa {
+    background: #41BAA4;
+    color: #fff;
+    text-align: center;
+    padding: 220px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.midasi h1 {
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 24px
+}
+
+.b {
+    width: 600px;
+}
+
+.ninnkisection {
+    
+}
+
+.ninnki {
+    text-align: center;
+    padding: 20px 0px;
+    border-top: solid #e5e5e5 1px;
+    border-bottom: solid #e5e5e5 1px;
+    margin: 50px 0px;
+    font-size: 24px;
+}
+
+.ninnkisection {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+ .ninnkidl0{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.ninnkidl {
+    display: flex;
+    flex-flow: column nowrap; 
+}
+
+.ninnkidt {
+    order: 3;
+    font-size: 16px;
+    padding-left: 12px
+}
+
+.ninnkidt a:link {
+    color: #241913;
+    text-decoration: none;
+}
+
+.ninnkidt a:visited {
+    color: #241913;
+    text-decoration: none;
+}
+
+.ninnkidd {
+    order: 2;
+    background: #47B39D;
+    font-size: 12px;
+    width: 78px;
+    padding: 8px 24px;
+    text-align: center;
+    margin-bottom: 12px
+}
+
+.ninnkidd a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ninnkidd a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ninnkidd2 {
+    order: 1;
+}
+
+.hukidasitittle {
+    position: relative;
+    background: #3B4552;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+.hukidasitittle:before {
+  position: absolute;
+  content: '';
+  border-top: 20px solid #3B4552;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mobairu {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.mobairuh3 {
+    float: left;
+    width: 200px;
+    margin-top: 73px;
+    margin-bottom: 35px;
+}
+
+.mobairupdiv {
+    float: left;
+}
+
+.mobairup {
+    width: 500px;
+}
+
+.mobairua {
+    margin-top: 20px;
+    background: #FF6C00;
+    width: 80px; 
+}
+
+.mobairufi {
+    float: right;
+}
+
+.mobairufi img {
+    display: block;
+}
+ 
+.mobairu2zenntai {
+    background: #fafafa;
+}
+
+.mobairu2 {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+.mobairuh32 {
+    float: right;
+    width: 200px;
+    margin-top: 73px;
+    margin-bottom: 35px;
+    margin-right: 300px;
+}
+
+.mobairupdiv2 {
+    float: right;
+}
+
+.mobairup2 {
+    width: 500px;
+}
+
+.mobairua2 {
+    margin-top: 20px;
+    background: #FF6C00;
+    width: 80px; 
+}
+
+.mobairufi2 {
+    float: left;
+}
+
+.mobairufi2 img {
+    display: block;
+}
+
+.hukidasitittle2 {
+    position: relative;
+    background: #3B4552;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+.hukidasitittle2:before {
+  position: absolute;
+  content: '';
+  border-top: 20px solid #3B4552;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sabisu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    
+}
+
+.sabisu1 {
+    width: 500px;
+    border-right: 1px solid #e5e5e5;
+    padding: 100px 0px;
+}
+
+.sabisu2 {
+    width: 500px;
+    padding: 100px 0px;
+}
+
+.sabisu1 h3 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #41BAA4;
+}
+
+.sabisu2 h3 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #41BAA4;
+}
+
+.sabisu1 p {
+    background: #41BAA4;
+    width: 240px;
+    margin: 0px 130px;
+    border-radius:5px;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sabisu2 p {
+    background: #41BAA4;
+    width: 240px;
+    margin: 0px 130px;
+    border-radius:5px;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+}
+.sabisu1 p a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sabisu1 p a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.sabisu1 p a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sabisu1 p a:hover {
+    text-decoration: none;
+    background: #47ccaf;
+    border-radius: 5px;
+}
+
+.sabisu2 p a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sabisu2 p a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sabisu2 p a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.sabisu2 p a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sabisu2 p a:hover {
+    text-decoration: none;
+    background: #47ccaf;
+    border-radius: 5px;
+}
+
+
