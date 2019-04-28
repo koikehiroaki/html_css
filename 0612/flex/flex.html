@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FLEX LAYOUT</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            display: flex;
+            width: 1500px;
+            background: red;
+            justify-content: space-between;
+        }
+
+        li {
+            width: 200px;
+            background: #efefef;
+            border: #333 1px solid;
+            list-style: none;
+        }
+
+        #wrap {
+            display: flex;
+            align-items: flex-start;
+            width: 1000px;
+            background: yellow;
+            margin-top: 50px;
+            justify-content: space-between;
+        }
+
+        .A {
+            width: 200px;
+            background: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FLEXによるレイアウト</h1>
+    <ul>
+        <li>nav</li>
+        <li>nav</li>
+        <li>nav</li>
+        <li>nav</li>
+        <li>nav</li>
+    </ul>
+
+    <div id="wrap">
+        <div class="A">トランプ米大統領は１２日、ツイッターで米朝首脳会談について「実務者による協議はうまくいっている…しかし結局のところ、関係ない。過去の合意とは違い、真の合意が成立するかどうかはすぐに分かるだろう」と投稿した。</div>
+        <div class="A">トランプ米大統領は１２日、ツイッターで米朝首脳会談について「実務者による協議はうまくいっている…</div>
+        <div class="A">トランプ米大統領は１２日、ツイッター</div>
+    </div>
+</body>
+
+</html>
