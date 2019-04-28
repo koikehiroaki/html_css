@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>連続したfloat</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        dl {
+            width: 600px;
+            /*  overflowを親要素にかけるのがポイント　*/
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+
+        dt {
+            width: 250px;
+            float: left;
+        }
+
+        dd {
+            width: 300px;
+            float: right;
+        }
+
+  /*  クリアフィックス　　*/      
+        
+        .cf:before,
+        .cf:after {
+            content: " ";
+            display: table;
+        }
+
+        .cf:after {
+            clear: both;
+        }
+
+        .cf {
+            *zoom: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>連続したfloat</h1>
+    <dl class="cf">
+        <dt><img src="images/02.jpg" alt="テクノスの建物"></dt>
+        <dd>これはテクノスの建物です。武蔵小金井にあるっちゃあるけど、駅からはかなり遠くてなかなか不便なんだよね。</dd>
+    </dl>
+    <dl>
+        <dt><img src="images/02.jpg" alt="テクノスの建物"></dt>
+        <dd>これはテクノスの建物です。武蔵小金井にあるっちゃあるけど、駅からはかなり遠くてなかなか不便なんだよね。</dd>
+    </dl>
+    <dl>
+        <dt><img src="images/02.jpg" alt="テクノスの建物"></dt>
+        <dd>これはテクノスの建物です。武蔵小金井にあるっちゃあるけど、駅からはかなり遠くてなかなか不便なんだよね。</dd>
+    </dl>
+</body>
+</html>
