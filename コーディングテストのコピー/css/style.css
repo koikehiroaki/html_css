@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: red;
+    text-decoration: underline;
+}
+
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+}
+
+body {
+    background: rgba(255, 255, 201, 0.41);
+}
+
+main {
+    margin: 0px auto;
+    width: 1024px;
+    line-height: 2;
+}
+
+header {
+    width: auto;
+    height: 90px;
+    background: #fff68e;
+    color: #ff9d00;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 {
+    padding: 15px;
+}
+
+h2 {
+    margin: 10px 0px;
+    /*background: #ff9d00;*/
+    font-size: 35px;
+    width: 90px;
+    height: 65px;
+    text-align: center;
+    border: solid black;
+    color: #ff9d00;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    width: 200px;
+    margin-right: 6px;
+    height: 50px;
+    line-height: 50px;
+    background: #ff6200;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+nav ul li:nth-child(odd) {
+    background: #ff9d00;
+}
+
+
+
+.a {
+    margin: 10px 0px 0px 0px;
+}
+
+.pp {
+    font-size: 20px;
+}
+
+.b {
+    /*width: 1024px;*/
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+.c {
+    float: left;
+    margin-right: 65px;
+}
+
+.d {
+    float: left;
+
+}
+
+.e {
+    float: right;
+}
+
+
+.h {
+    margin-top: 25px;
+}
+
+.f {
+    float: left;
+}
+
+.g {
+    float: right;
+}
+
+footer {
+    /*background: #fff68e;*/
+    height: 85px;
+    border-top: 2px dotted black;
+    padding: 0px 10px;
+    /*background: #fff68e;*/
+}
+
+.photo_list {
+    overflow: hidden;
+}
+
+.photo_list li {
+    display: block;
+    margin-right: 60px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.photo_list li.margin {
+    margin-right: 50px;
+}
+
+.photo_list li.nomargin {
+    margin-right: 0;
+}
+
+
+figure {
+    overflow: hidden;
+    margin: 15px 0px;
+}
