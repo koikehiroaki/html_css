@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+body {
+    background: #e8e5e5;
+    line-height: 2;
+}
+
+header {
+    background: #0d0d0d;
+    width: 1000px;
+    height: 105px;
+    position: relative;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    width: 70px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px
+}
+
+.navmargin_center {
+    margin-left: 220px;
+}
+
+.navmargin_left {
+    margin-left: 180px;
+}
+
+.navmargin_right {
+    margin-right: 180px;
+}
+
+a:link {
+    color: #e8e5e5;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e8e5e5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.maincontentstitle a:link {
+    color: #e8e5e5;
+    text-decoration: none;
+}
+
+.maincontentstitle a:visited {
+    color: #e8e5e5;
+    text-decoration: none;
+}
+
+.maincontentstitle a:hover {
+    text-decoration: none;
+}
+
+.logoimage {
+    position: absolute;
+    left: 419px;
+    top: 0px;
+}
+
+.topimage {
+    margin: 100px 0px 0px 50px;
+}
+
+section dl {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #323232;
+}
+
+section dt {
+    font-size: 17px;
+    width: 300px;
+    padding-left: 250px
+}
+
+section dd {
+    font-size: 17px;
+    width: 300px;
+    padding-right: 55px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0px;
+    color: #323232;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: #323232;
+}
+
+section ol {
+    list-style: decimal-leading-zero;
+}
+
+section ol li {
+    font-size: 17px;
+}
+
+/*section ol li:nth-child(even) {
+    background: #babdbd;
+}*/
+
+.music {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 85px;
+}
+
+.kaiinn {
+    background: #c22047;
+    width: 800px;
+    text-align: center;
+    margin: 120px 0px 0px 100px;
+}
+
+.kaiinn p {
+    text-align: left;
+    display: inline-block;
+    color: #e8e5e5;
+    font-size: 17px;
+    padding: 20px 0px;
+}
+
+aside {
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.subetenoleft {
+    float: left;
+    margin-left: 100px;
+}
+
+.kaisyaright {
+    float: right;
+    margin-right: 100px;
+}
+
+.subeteno {
+    font-size: 17px;
+    width: 375px;
+    color: #323232;
+}
+
+.kaisya {
+    font-size: 17px;
+    width: 375px;
+    color: #323232;
+}
+
+footer {
+    background: #0d0d0d;
+    margin: 40px auto 0px;
+    width: 920px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 80px;
+}
+
+footer ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+footer ul li {
+    float: left;
+    width: 70px;
+    color: #e8e5e5;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copy {
+    float: right;
+    width: 250px;
+}
